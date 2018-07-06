@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textStyle="bold"
+        android:text="Welcome"
+        android:gravity="center"
+        android:paddingLeft="100dp"
+        android:textSize ="40dp" />
+
+    <TextView
+        android:id="@+id/tvWelcomeMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="Hello"
+        android:gravity="center"
+        android:layout_below="@+id/Welcome"
+        android:paddingLeft="150dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/tvWelcomeM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#222222"
+        android:textStyle="bold"
+        android:text="To Annapurna Management System"
+        android:gravity="center"
+        android:layout_below="@+id/tvWelcomeMsg"
+        android:paddingLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="160dp"
+    android:id="@+id/radio"
+    android:layout_below="@+id/tvWelcomeM"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="30dp"
+    android:background="#fff"
+    android:elevation="4dp"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="UserId"
+        android:paddingTop="5dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+       android:paddingLeft="105dp"
+        android:textColor="#999999"
+
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:text="uytcjgvhkbjl"
+        android:textSize="25dp"
+        />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:id="@+id/radio1"
+        android:layout_below="@+id/radio"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff"
+        android:elevation="4dp"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:text="Amount"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/etAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:paddingLeft="105dp"
+            android:textColor="#999999"
+            android:layout_below="@+id/textView2"
+android:gravity="center"
+            android:paddingTop="20dp"
+            android:textStyle="bold"
+            android:text="uytcjgvhkbjl"
+            android:textSize="25dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/ahome"
+            android:title="Account Home" />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/g2">
+        <item
+            android:id="@+id/menu"
+            android:title="Menu" />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/g3">
+        <item
+            android:id="@+id/faq"
+            android:title="FAQ" />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/g4">
+        <item
+            android:id="@+id/dfeed"
+            android:title="Daily FeedBack" />
+    </group>
+
+
+    </group>
+</menu>
+
+
+
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <View
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:alpha="0.5"
+        android:layout_alignParentTop="true" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/etName"
+
+        android:hint="Enter Name"
+        android:textColorHint="#999999"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_above="@+id/etUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etUsername"
+        android:layout_marginBottom="224dp"
+
+        android:hint="Enter Username"
+        android:textSize="20sp"
+        android:textColorHint="#999999"
+        android:textColor="#FFFFFF"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/etName"
+        android:layout_alignEnd="@+id/etName"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="Create Password"
+        android:layout_marginBottom="110dp"
+
+        android:textSize="20sp"
+        android:textColorHint="#999999"
+        android:textColor="#FFFFFF"
+        android:id="@+id/etPassword"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/etName"
+        android:layout_alignEnd="@+id/etName" />
+
+    <Button
+        android:id="@+id/bRegister"
+        android:background="@drawable/blue_btn_drawable"
+        android:textColor="@android:color/white"
+        android:text="REGISTER"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAge"
+        android:layout_marginBottom="170dp"
+        android:hint="Enter Amount"
+        android:textColorHint="#999999"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/etName"
+        android:layout_alignEnd="@+id/etName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/etName"
+        android:layout_alignStart="@+id/etName"
+        android:layout_marginBottom="28dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignEnd="@+id/etName" />
+
+</RelativeLayout>
